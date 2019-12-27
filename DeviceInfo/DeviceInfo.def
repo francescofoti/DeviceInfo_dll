@@ -1,0 +1,17 @@
+LIBRARY deviceinfo
+EXPORTS
+  DICreateDeviceInfo @1
+  DIDestroyDeviceInfo @2
+  DIQueryDeviceInfo @3
+  DIGetVersion @4
+  DIGetDeviceType @5
+  DIGetDeviceTypeModifier @6
+  DIGetRemovableMedia @7
+  DIGetCommandQueueing @8
+  DIGetBusType @9
+  DIGetLastError @10
+  DIGetLastErrorText @11
+  DIGetVendorID @12
+  DIGetProductID @13
+  DIGetProductRevision @14
+  DIGetSerialNumber @15
